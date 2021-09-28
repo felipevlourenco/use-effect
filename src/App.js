@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+// import Counter from './Counter'
+import './App.css'
+import SearchMultiple from './SearchMultiple'
+// import SearchResults from './SearchResults'
+// import CounterDep from './CounterDep'
+// import AutoCounter from './AutoCounter'
+// import Greeting from './Greeting'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      {/* <Counter /> */}
+      {/* <Greeting name="felipe" /> */}
+      {/* <AutoCounter /> */}
+      {/* <CounterDep /> */}
+      {/* <SearchResults /> */}
+      <SearchMultiple />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
